@@ -7,7 +7,7 @@ Tondeur Hervé (2016)
 [Blog TondeurH sur Developpez.com](http://www.developpez.net/forums/blogs/69141-tondeurh/)
 
 
-SceneBuilder est sous licence BSD.
+SceneBuilder est distribuée sous licence BSD.
 
 Cette version est modifiée : 
 - Elle ne nécessite pas d'enregistrement auprès de GluonHq.
@@ -22,7 +22,7 @@ Prérequis :
 - Graddle 2.2 ou +
 
 
-Téléchargez les sources sur votre machine via l'outil de versionning git, éxécutez la commande suivante : 
+Téléchargez les sources sur votre machine via l'outil de versionning git, exécutez la commande suivante : 
 
 *$> git clone https://github.com/tondeur-h/SceneBuilder_FR*
 
@@ -53,7 +53,7 @@ il ne reste plus qu'a remplacer le fichier dist.jar de la distribution GluonHq p
 Comment obtenir directement le binaire Jar de l'application en Français ?
 ========================================================================
 
-il est en téléchargement directement a cette adresse  :ok_hand: :
+il est en téléchargement directement à cette adresse  :ok_hand: :
 
 [ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar)
 
@@ -63,13 +63,15 @@ Il faut installer la version US de chez GluonHq, téléchargez la version qui co
 
 [GluonHq SceneBuilder Binaires](http://gluonhq.com/labs/scene-builder/)
 
-Cette distribution contient l'ensemble des binaires qui peremttent selon le système d'exploitation d'appeler directement SceneBuilder via un éxécutable ou via NetBeans ou tout autre éditeur de code source Java.
+Cette distribution contient l'ensemble des binaires qui peremttent selon le système d'exploitation d'appeler directement SceneBuilder via un exécutable ou via NetBeans ou tout autre éditeur de code source Java.
 
 il ne reste plus qu'a remplacer le fichier dist.jar de la distribution GluonHq par ce nouveau fichier dist.jar en français.
 
 **nb : Exemple pour une distribution Linux Debian**
 
 *$> sudo cp ./dist.jar /opt/SceneBuilder/app*
+
+ :cool:
 
 Comment obtenir les fichiers sources origines de SceneBuilder chez GluonHq ?
 ==========================================================================
@@ -80,6 +82,8 @@ et sur le repository du projet SceneBuilder de Gluon-OSS
 
 [SceneBuilder Gluon-OSS](https://bitbucket.org/gluon-oss/scenebuilder)
 
-Vous obtenez les derniéres sources mises à jours par la société Gluonhq.
+Vous obtenez les dernières sources mises à jour par la société Gluonhq.
 
 En les remerciant pour ce travail...
+
+>_TH_
