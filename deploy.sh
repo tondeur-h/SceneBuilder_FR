@@ -1,1 +1,6 @@
-sudo mv ./buiLd/libs/scenebuilder-all-8.2.0-FRENCH-all.jar /opt/SceneBuilder/app/dist.jar
+#!/bin/bash
+gradle assemble
+sudo mv /home/herve/dev/HT-scenebuilder/build/libs/scenebuilder-all-8.2.0-FRENCH-all.jar /opt/SceneBuilder/app/dist.jar
+
+cd /opt/SceneBuilder/
+./SceneBuilder
