@@ -1,7 +1,9 @@
 # SceneBuilder_FR
 JavaFX SceneBuilder translate in French (Traduction française de SceneBuilder pour JavaFX)
-Ce projet à pour but de proposer l'application JavaFX SceneBuilder en version française.
+Ce projet à pour but de proposer l'application JavaFX SceneBuilder en version française. 
+
 Tondeur Hervé (2016) 
+
 [Blog TondeurH sur Developpez.com](http://www.developpez.net/forums/blogs/69141-tondeurh/)
 
 
@@ -17,12 +19,15 @@ Prérequis :
 
 
 Téléchargez les sources sur votre machine via l'outil de versionning git, éxécutez la commande suivante : 
+
 $> git clone https://github.com/tondeur-h/SceneBuilder_FR
 
 Ou via l'outils git de NetBeans 8 ou n'importe quel éditeurs de code source Java qui prend en charge l'outil gradle.
 
 Il suffit ensuite de lancer la compilation via la commande :
+
 $> cd SceneBuiler_FR
+
 $> gradle assemble
 
 renommer le fichiers qui se trouve dans le dossier ./SceneBuilder_FR/build/libs
