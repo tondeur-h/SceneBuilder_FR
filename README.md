@@ -20,26 +20,28 @@ Prérequis :
 
 Téléchargez les sources sur votre machine via l'outil de versionning git, éxécutez la commande suivante : 
 
-$> git clone https://github.com/tondeur-h/SceneBuilder_FR
+*$> git clone https://github.com/tondeur-h/SceneBuilder_FR*
 
-Ou via l'outils git de NetBeans 8 ou n'importe quel éditeurs de code source Java qui prend en charge l'outil gradle.
+Ou via l'outils git de NetBeans 8 ou n'importe quel éditeur de code source Java qui prend en charge l'outil gradle.
 
 Il suffit ensuite de lancer la compilation via la commande :
 
-$> cd SceneBuiler_FR
+*$> cd SceneBuiler_FR*
 
-$> gradle assemble
+*$> gradle assemble*
 
-renommer le fichiers qui se trouve dans le dossier ./SceneBuilder_FR/build/libs
-$> cd ./build/libs
-$> mv scenebuilder-all-8.2.0-FRENCH-all.jar dist.jar
+renommer le fichier qui se trouve dans le dossier *./SceneBuilder_FR/build/libs*
+
+*$> cd ./build/libs*
+
+*$> mv scenebuilder-all-8.2.0-FRENCH-all.jar dist.jar*
 
 il ne reste plus qu'a remplacer le fichier dist.jar de la distribution GluonHq par ce nouveau fichier dist.jar en français.
 
 Exemple sous une distribution Linux Debian :
 ==========================================
 
-$> sudo cp ./dist.jar /opt/SceneBuilder/app
+*$> sudo cp ./dist.jar /opt/SceneBuilder/app*
 
 
 Comment obtenir directement le binaire Jar de l'application en Français ?
@@ -49,6 +51,7 @@ Comment obtenir directement le binaire Jar de l'application en Français ?
 Comment installer rapidement l'application ?
 ==========================================
 Il faut installer la version US de chez GluonHq, téléchargez la version qui correspond à votre système d'exploitation :
+
 [GluonHq SceneBuilder Binaires](http://gluonhq.com/labs/scene-builder/)
 
 
