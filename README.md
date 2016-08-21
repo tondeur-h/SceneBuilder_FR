@@ -9,10 +9,10 @@ Tondeur Hervé (2016)
 
 SceneBuilder est sous licence BSD.
 
-Cette version est modifié : 
-- Elle ne nécessite pas d'enregistrement auprés de GluonHq.
-- Elle affiche les infos de traduction dans la panneau à propos de...
-- Elle est complémtement francisé et essaye de respecter les raccourcis claviers d'origines(quand celà est possible).
+Cette version est modifiée : 
+- Elle ne nécessite pas d'enregistrement auprès de GluonHq.
+- Elle affiche des informations sur la traduction dans le panneau "à propos de..."
+- Elle est complètement francisée et essaye de respecter les raccourcis claviers d'origines(quand cela est possible).
 
 Comment compiler SceneBuilder en version française ?
 ==================================================
@@ -26,13 +26,15 @@ Téléchargez les sources sur votre machine via l'outil de versionning git, éx�
 
 *$> git clone https://github.com/tondeur-h/SceneBuilder_FR*
 
-Ou via l'outils git de NetBeans 8 ou n'importe quel éditeur de code source Java qui prend en charge l'outil gradle.
+nb:Ou via l'outils git de NetBeans 8 ou n'importe quel éditeur de code source Java qui prend en charge l'outil gradle.
 
 Il suffit ensuite de lancer la compilation via la commande :
 
 *$> cd SceneBuiler_FR*
 
 *$> gradle assemble*
+
+ :relaxed:
 
 renommer le fichier qui se trouve dans le dossier *./SceneBuilder_FR/build/libs*
 
@@ -46,11 +48,12 @@ il ne reste plus qu'a remplacer le fichier dist.jar de la distribution GluonHq p
 
 *$> sudo cp ./dist.jar /opt/SceneBuilder/app*
 
+ :satisfied:
 
 Comment obtenir directement le binaire Jar de l'application en Français ?
 ========================================================================
 
-il est en téléchargement directement a cette adresse :
+il est en téléchargement directement a cette adresse  :ok_hand: :
 
 [ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar)
 
