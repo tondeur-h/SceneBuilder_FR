@@ -9,6 +9,10 @@ Tondeur Hervé (2016)
 
 SceneBuilder est sous licence BSD.
 
+Cette version est modifié : 
+- Elle ne nécessite pas d'enregistrement auprés de GluonHq.
+- Elle affiche les infos de traduction dans la panneau à propos de...
+- Elle est complémtement francisé et essaye de respecter les raccourcis claviers d'origines(quand celà est possible).
 
 Comment compiler SceneBuilder en version française ?
 ==================================================
@@ -38,8 +42,7 @@ renommer le fichier qui se trouve dans le dossier *./SceneBuilder_FR/build/libs*
 
 il ne reste plus qu'a remplacer le fichier dist.jar de la distribution GluonHq par ce nouveau fichier dist.jar en français.
 
-Exemple sous une distribution Linux Debian :
-==========================================
+**nb : Exemple pour une distribution Linux Debian**
 
 *$> sudo cp ./dist.jar /opt/SceneBuilder/app*
 
@@ -47,6 +50,9 @@ Exemple sous une distribution Linux Debian :
 Comment obtenir directement le binaire Jar de l'application en Français ?
 ========================================================================
 
+il est en téléchargement directement a cette adresse :
+
+[ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar)
 
 Comment installer rapidement l'application ?
 ==========================================
@@ -54,10 +60,16 @@ Il faut installer la version US de chez GluonHq, téléchargez la version qui co
 
 [GluonHq SceneBuilder Binaires](http://gluonhq.com/labs/scene-builder/)
 
+Cette distribution contient l'ensemble des binaires qui peremttent selon le système d'exploitation d'appeler directement SceneBuilder via un éxécutable ou via NetBeans ou tout autre éditeur de code source Java.
 
+il ne reste plus qu'a remplacer le fichier dist.jar de la distribution GluonHq par ce nouveau fichier dist.jar en français.
 
-Comment obtenir les sources origines de SceneBuilder chez GluonHq ?
-==================================================================
+**nb : Exemple pour une distribution Linux Debian**
+
+*$> sudo cp ./dist.jar /opt/SceneBuilder/app*
+
+Comment obtenir les fichiers sources origines de SceneBuilder chez GluonHq ?
+==========================================================================
 
 Juste en vous connectant sur atlassian BitBucket ([BitBucket](https://bitbucket.org))
 
@@ -67,4 +79,4 @@ et sur le repository du projet SceneBuilder de Gluon-OSS
 
 Vous obtenez les derniéres sources mises à jours par la société Gluonhq.
 
-En les remerciant pour cet travail...
+En les remerciant pour ce travail...
