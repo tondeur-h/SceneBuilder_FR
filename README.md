@@ -12,7 +12,7 @@ SceneBuilder est distribuée sous licence BSD.
 Cette version est modifiée : 
 - Elle ne nécessite pas d'enregistrement auprès de GluonHq.
 - Elle affiche des informations sur la traduction dans le panneau "à propos de..."
-- Elle est complètement francisée et essaye de respecter les raccourcis claviers d'origines(quand cela est possible).
+- Elle est partiellement francisée (80%) et essaye de respecter les raccourcis claviers d'origines(quand cela est possible).
 
 Comment compiler SceneBuilder en version française ?
 ==================================================
@@ -55,7 +55,7 @@ Comment obtenir directement le binaire Jar de l'application en Français ?
 
 il est en téléchargement directement à cette adresse  :ok_hand: :
 
-[ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar)
+[ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar) (build du 20160823) 
 
 Comment installer rapidement l'application ?
 ==========================================
