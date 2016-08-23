@@ -55,7 +55,7 @@ Comment obtenir directement le binaire Jar de l'application en Français ?
 
 il est en téléchargement directement à cette adresse  :ok_hand: :
 
-[ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar)
+[ScenBuilder FR](http://tondeurh.fr/software/SceneBuilder_FR/dist.jar) (build du 20160823) 
 
 Comment installer rapidement l'application ?
 ==========================================
