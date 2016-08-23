@@ -32,13 +32,25 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
-<?import java.lang.*?>
-<?import java.net.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
 
-<SplitPane fx:id="inspectorRoot" dividerPositions="0.33" focusTraversable="false" orientation="VERTICAL" prefHeight="600.0" styleClass="theme-presets, SBKIT-inspector-panel" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<SplitPane fx:id="inspectorRoot" dividerPositions="0.33" focusTraversable="false" orientation="VERTICAL" prefHeight="600.0" styleClass="theme-presets, SBKIT-inspector-panel" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
   <items>
 <StackPane fx:id="searchStackPane" maxHeight="330.0" minHeight="100.0" prefHeight="170.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
 <children>
@@ -80,7 +92,7 @@
 <children>
     <Accordion fx:id="accordion" VBox.vgrow="ALWAYS">
       <panes>
-        <TitledPane fx:id="propertiesTitledPane" animated="true" contentDisplay="RIGHT" graphicTextGap="0.0" text="Properties">
+        <TitledPane fx:id="propertiesTitledPane" animated="true" contentDisplay="RIGHT" graphicTextGap="0.0" text="Propriétés">
           <content>
             <ScrollPane fx:id="propertiesScroll" fitToWidth="true" prefViewportHeight="320.0" prefViewportWidth="251.0">
               <content>
@@ -120,7 +132,7 @@
             <Label styleClass="secondary-section-title" text=": &lt;className&gt;" />
           </graphic>
         </TitledPane>
-        <TitledPane fx:id="layoutTitledPane" animated="true" contentDisplay="RIGHT" graphicTextGap="0.0" text="Layout">
+        <TitledPane fx:id="layoutTitledPane" animated="true" contentDisplay="RIGHT" graphicTextGap="0.0" text="Mise en Page">
           <content>
             <ScrollPane fx:id="layoutScroll" fitToWidth="true" prefViewportHeight="320.0" prefViewportWidth="254.0">
               <content>
